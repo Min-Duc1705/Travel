@@ -1,0 +1,232 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: yellow; */
+    /* border: 5px solid red; */
+
+    margin: 0;
+}
+
+/* header */
+header {
+    /* background-color: aqua; */
+    /* để xác định  */
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+
+/* #page-logo{
+    background-color: rgb(7,83,83);
+} */
+#page-logo a {
+    /* background-color: purple; */
+    padding: 10px;
+    color: rgb(245, 243, 160);
+    font-size: 3.0rem;
+    /* 1.0rem=16px */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    /* đổ phóng chữ */
+    text-shadow: 3px 3px 2px black;
+}
+
+nav {
+    /* background-color: rgb(195,195, 70); */
+    width: 70%;
+    display: flex;
+    justify-content: end;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    padding: 12px;
+    /* bo tròn */
+    border-radius: 6px;
+}
+
+/* hover khi di chuột vào thì đổi dữ liệu */
+nav ul a:hover {
+    color: black;
+    text-shadow: 1px 1px 2px rgba();
+    background-color: rgb(255, 251, 0);
+}
+
+nav ul li {
+    margin-right: 10px;
+
+
+}
+
+/* cSS of hero */
+#hero {
+    height: 480px;
+    background-image: url('/travel/css/images/ocean.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    /* padding-top: 55%; */
+    
+
+}
+
+#hero-content {
+    text-align: center;
+    margin-top: 100px;
+    width: 500px;
+    
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px, 4px, 8px rgb(68, 67, 67);
+    padding: 20px 20px;
+    margin-left: 35%;
+    border-radius: 5px;
+
+}
+
+#hero-content h1 {
+    text-transform: uppercase;
+    color: rgb(253, 254, 254);
+    margin-top: 4px;
+}
+
+#hero-content p {
+    text-transform: uppercase;
+    color: rgb(146, 150, 151);
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+.button-hero-content {
+    background-color: rgb(246, 202, 40);
+    padding: 7px;
+    margin-top: 1%;
+    border: 2px solid rgb(246, 202, 40);
+    border-radius: 8px;
+    font-weight: 600;
+
+}
+
+.container {
+    display: grid;
+    /* Sử dụng CSS Grid */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+}
+
+.column {
+    padding: 20px;
+    border-radius: 10px;
+    /* Đường viền để dễ nhìn */
+
+
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* ẩn phần dư*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img img {
+    width: 100%;
+    /* chiều ngang */
+    height: 100%;
+    /* chiều cao */
+    border-radius: 5px;
+    object-fit: cover;
+    /* cắt ảnh để phù hợp */
+    object-position: center;
+    /* lấy phầ giữa của ảnh */
+}
+
+#bottom {
+    display: flex;
+    text-align: center;
+
+}
+
+footer {
+    background-color: black;
+}
+
+.icon1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon1 img {
+    width: 40px;
+    /* chiều ngang */
+    height: 40px;
+    /* chiều cao */
+    margin: 10px;
+    margin-left: 30px;
+
+
+
+}
+
+.hero-bottom {
+    background-color: rgb(206, 245, 242);
+
+    padding-bottom: 50px;
+
+
+}
+
+section {
+    margin: 0;
+    /* Đảm bảo không có khoảng cách giữa các section */
+    padding: 10px;
+    /* Thêm padding cho nội dung */
+    background-color: rgb(206, 245, 242);
+}
+
+.p1 {
+    text-align: center;
+}
+
+.h2 {
+
+    background-color: rgb(206, 245, 242);
+    margin-left: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.highlight {
+    color: rgb(57, 183, 149);
+    font-weight: 600;
+}
+
+.background{
+    background-image:url('/Bài 7/img/ocean.jpg');
+    background-position: center;
+    background-size: cover;
+}
